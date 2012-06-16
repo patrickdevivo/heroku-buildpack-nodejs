@@ -172,8 +172,6 @@ echo "Dependencies installed" | indent
 
 #!/bin/sh
 
-BUILD_DIR=$1
-CACHE_DIR=$2
 METEOR_HOME=$BUILD_DIR/.meteor/local
 PATH=$METEOR_HOME/usr/bin:$METEOR_HOME/usr/lib/meteor/bin:$PATH
 
